@@ -9,7 +9,7 @@ Here is a list of different velib's stations stored in a dictionnary.
 Write a function check_my_city that take a city name in parameter.
 This functions check the number of stations available. If nothing is
 found it should return: "Sorry! No station for your city has been
-found!", otherwise it returns the number of the station with the
+found!", otherwise it returns the total number of stations with the
 associated zip codes. See example to write the proper format.
 
 ```python
@@ -55,7 +55,6 @@ velib = \
 
 ## Advice
 
-Check the join() function
 Be ***very*** careful of the output format.
 "The devil is in the details".
 Check, check and re-check!
