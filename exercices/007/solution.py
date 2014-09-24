@@ -7,6 +7,5 @@ Created on Mon Sep 22 14:10:07 2014
 
 mot = list("Hello World !")
 
-for l in mot[:]: 
-   print (l, "\n")   
-    
+for l in mot:
+    print(l, "\n")
