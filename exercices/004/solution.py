@@ -4,5 +4,6 @@ Created on Mon Sep 22 10:55:45 2014
 
 @author: Guillaume
 """
-liste = ["Hello World", 42]
-print("liste")
+import sys
+if len(sys.argv) == 1:
+    print(sys.argv[0])
