@@ -11,4 +11,3 @@ def is_multiple(a, b):
         return('True')
     else:
         return('False')
-
