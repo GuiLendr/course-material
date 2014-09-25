@@ -7,7 +7,8 @@ Created on Wed Sep 24 21:16:04 2014
 
 
 def is_multiple(a, b):
-    if b % a == 0:
-        return('True')
+    c = b % a
+    if (c == 0) & (c is int):
+        return(True)
     else:
-        return('False')
+        return(False)
